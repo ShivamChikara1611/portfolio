@@ -6,11 +6,11 @@ import { technologies } from "../constants";
 
 const Tech = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
+    <div className='flex flex-row flex-wrap justify-center gap-5'>
       {technologies.map((technology) => (
         <div className='w-28 h-28' key={technology.name}>
           {/* <BallCanvas icon={technology.icon} /> */}
-          <img src={technology.icon} alt={technology.name} className="w-full h-full object-contain p-5 rounded-full bg-[#a1a1a1]" />
+          <img src={technology.icon} alt={technology.name} className="w-full h-full object-contain p-5 filter invert brightness-[1.2] saturate-[1.2] contrast-[1] drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.6)] transition-all duration-300 hover:scale-110" />
         </div>
       ))}
     </div>

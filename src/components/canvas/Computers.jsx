@@ -29,7 +29,17 @@ const Computers = ({ isMobile }) => {
           if (width < 1280) return [0, -80, -2.2];
           return [0, -80, -2.2];
         })()}
-        rotation={[0.25, 0, 0]}
+        rotation={(() => {
+          const [baseRotationX, baseRotationY, baseRotationZ] = [0.25, 0, 0];
+          const time = Date.now() * 0.001; // Convert to seconds
+          const verticalRotation = Math.sin(time) * 0.1; // Adjust the multiplier to control rotation speed
+          const horizontalRotation = Math.cos(time) * 0.1; // Add horizontal rotation
+          return [
+            baseRotationX + verticalRotation,
+            baseRotationY + horizontalRotation,
+            baseRotationZ
+          ];
+        })()}
       />
     </mesh>
   );
