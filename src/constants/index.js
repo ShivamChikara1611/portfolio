@@ -48,70 +48,70 @@ const services = [
 ];
 
 const technologies = [
-    // {
-    //     name: "HTML 5",
-    //     icon: html,
-    // },
-    // {
-    //     name: "CSS 3",
-    //     icon: css,
-    // },
+    {
+        name: "HTML 5",
+        icon: html,
+    },
+    {
+        name: "CSS 3",
+        icon: css,
+    },
     {
         name: "JavaScript",
         icon: javascript,
     },
-    // {
-    //     name: "TypeScript",
-    //     icon: typescript,
-    // },
-    // {
-    //     name: "React JS",
-    //     icon: reactjs,
-    // },
-    // {
-    //     name: "Tailwind CSS",
-    //     icon: tailwind,
-    // },
-    // {
-    //     name: "Node JS",
-    //     icon: nodejs,
-    // },
-    // {
-    //     name: "MongoDB",
-    //     icon: mongodb,
-    // },
-    // {
-    //     name: "Three JS",
-    //     icon: threejs,
-    // },
-    // {
-    //     name: "git",
-    //     icon: git,
-    // },
-    // {
-    //     name: "python",
-    //     icon: python,
-    // },
-    // {
-    //     name: "c",
-    //     icon: c,
-    // },
-    // {
-    //     name: "cpp",
-    //     icon: cpp,
-    // },
-    // {
-    //     name: "bootstrap",
-    //     icon: bootstrap,
-    // },
-    // {
-    //     name: "express",
-    //     icon: express,
-    // },
-    // {
-    //     name: "sql",
-    //     icon: sql,
-    // }
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
+    {
+        name: "Three JS",
+        icon: threejs,
+    },
+    {
+        name: "git",
+        icon: git,
+    },
+    {
+        name: "python",
+        icon: python,
+    },
+    {
+        name: "c",
+        icon: c,
+    },
+    {
+        name: "cpp",
+        icon: cpp,
+    },
+    {
+        name: "bootstrap",
+        icon: bootstrap,
+    },
+    {
+        name: "express",
+        icon: express,
+    },
+    {
+        name: "sql",
+        icon: sql,
+    }
 ];
 
 const experiences = [
