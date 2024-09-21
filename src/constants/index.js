@@ -19,6 +19,8 @@ import {
     bootstrap,
     express,
     sql,
+    linkedin,
+    twitter
 } from "../assets";
 
 export const navLinks = [

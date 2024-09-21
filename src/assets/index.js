@@ -24,6 +24,8 @@ import cpp from "./tech/cpp.png";
 import bootstrap from "./tech/bootstrap.png";
 import express from "./tech/express.png";
 import sql from "./tech/sql.png";
+import linkedin from "./linkedin.png";
+import twitter from "./twitter.png";
 
 export {
   logo,
@@ -49,5 +51,7 @@ export {
   cpp,
   bootstrap,
   express,
-  sql
+  sql,
+  linkedin,
+  twitter
 };
