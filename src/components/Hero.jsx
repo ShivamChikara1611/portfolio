@@ -8,7 +8,7 @@ const Hero = () => {
     <section className={`relative w-full h-[100vh]`}>
       <div>
         <div
-          className={`absolute top-[70px] sm:top-[80px] ${styles.paddingX} flex flex-row items-center gap-5 w-full lg:w-[45vw] lg:h-[65vh] 2xl:ml-[12vw]`}
+          className={`absolute top-[70px] sm:top-[10vh] ${styles.paddingX} flex flex-row items-center gap-5 w-full lg:w-[45vw] lg:h-[65vh] 2xl:ml-[12vw]`}
         >
           <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-3 h-3 lg:w-5 lg:h-5 rounded-full bg-[#ad4bde]" />
@@ -32,9 +32,9 @@ const Hero = () => {
         <ComputersCanvas/>
       </div>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-3 bottom-10 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w-[30px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -44,7 +44,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
+              className="w-2 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>

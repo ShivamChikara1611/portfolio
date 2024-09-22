@@ -100,18 +100,18 @@ const Navbar = () => {
       </div>
 
       {/* Social Links */}
-      <div className="fixed right-1 top-1/2 transform -translate-y-1/2 z-50 bg-purple-700 py-5 px-1 rounded-full">
+      <div className="fixed right-3 top-1/2 transform -translate-y-1/2 z-50 bg-gradient-to-b from-purple-700 to-pink-400 py-5 px-1.5 rounded-full">
         <div className="flex flex-col space-y-4">
           <a href="https://github.com/ShivamChikara1611" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors duration-300">
-            <img src={github} alt="GitHub" className="w-8 h-8 filter invert" />
+            <img src={github} alt="GitHub" className="w-6 h-6 filter invert" />
           </a>
 
           <a href="https://www.linkedin.com/in/shivam-chikara1611/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors duration-300">
-            <img src={linkedin} alt="LinkedIn" className="w-8 h-8" />
+            <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
           </a>
 
           <a href="https://x.com/ShivamC1611?prefetchTimestamp=1725389011164" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors duration-300">
-            <img src={twitter} alt="Twitter" className="w-8 h-8" />
+            <img src={twitter} alt="Twitter" className="w-6 h-6" />
           </a>
         </div>
       </div>

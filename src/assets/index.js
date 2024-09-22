@@ -26,9 +26,13 @@ import express from "./tech/express.png";
 import sql from "./tech/sql.png";
 import linkedin from "./linkedin.png";
 import twitter from "./twitter.png";
+import link from "./link.png";
+import hospital from "./hospital.png";
+import jobbyapp from "./jobbyapp.png";
 
 export {
   logo,
+  link,
   backend,
   creator,
   mobile,
@@ -53,5 +57,7 @@ export {
   express,
   sql,
   linkedin,
-  twitter
+  twitter,
+  hospital,
+  jobbyapp
 };

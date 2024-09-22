@@ -20,7 +20,9 @@ import {
     express,
     sql,
     linkedin,
-    twitter
+    twitter,
+    hospital,
+    jobbyapp,
 } from "../assets";
 
 export const navLinks = [
@@ -186,9 +188,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Hospital Management System",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "The Hospital Management System is a MERN stack app, enabling admins to manage doctors, doctors to handle appointments, and patients to book appointments, make payments, and update profiles. It uses JWT authentication and is fully responsive.",
         tags: [
             {
                 name: "react",
@@ -203,13 +205,14 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        // image: carrent,
-        source_code_link: "https://github.com/",
+        image: hospital,
+        source_code_link: "https://github.com/ShivamChikara1611/hospital-management",
+        live_link: "https://hospital-management.shivamchikara.xyz/",
     },
     {
-        name: "Job IT",
+        name: "Jobby App",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "The Jobby App is a job portal that simplifies job searching and recruitment. It allows users to browse job listings and manage their profiles, while recruiters can efficiently post and manage jobs. The app offers a seamless, user-friendly experience, with secure login and easy access to job opportunities.",
         tags: [
             {
                 name: "react",
@@ -220,33 +223,13 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        // image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        // image: tripguide,
-        source_code_link: "https://github.com/",
+        image: jobbyapp,
+        source_code_link: "https://github.com/ShivamChikara1611/jobby-app",
+        live_link: "https://jobby-app.shivamchikara.xyz/",
     },
 ];
 
