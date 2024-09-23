@@ -1,9 +1,25 @@
+import { useEffect } from "react";
+import { gsap } from "gsap";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  useEffect(() => {
+    // Animating the text and div elements using gsap
+    gsap.fromTo(
+      ".hero-heading",
+      { x: 200, opacity: 0 },
+      { x: 0, opacity: 1, duration: 1.5, ease: "power2.out" }
+    );
+
+    gsap.fromTo(
+      ".hero-subtext",
+      { x: -200, opacity: 0 },
+      { x: 0, opacity: 1, duration: 2.25, delay: 0.5, ease: "power4.out" }
+    );
+  }, []);
+
   return (
     <section className={`relative w-full h-[100vh]`}>
       <div>
@@ -16,10 +32,14 @@ const Hero = () => {
           </div>
 
           <div>
-            <h1 className={`${styles.heroHeadText} text-white`}>
+            <h1
+              className={`${styles.heroHeadText} text-white hero-heading`}
+            >
               Hi, I'm <span className="text-[#ad4bde]">Shivam</span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-300 text-sm`}>
+            <p
+              className={`${styles.heroSubText} mt-2 text-white-300 text-sm hero-subtext`}
+            >
               I develop dynamic, full-stack web applications,{" "}
               <br className="sm:block hidden" />
               responsive designs, scalable cloud-based apps,{" "}
@@ -32,7 +52,7 @@ const Hero = () => {
         <ComputersCanvas/>
       </div>
 
-      <div className="absolute bottom-[100px] w-full flex justify-center items-center">
+      <div className="absolute bottom-[100px] w-full flex justify-center items-center scroll-indicator">
         <a href="#about">
           <div className="w-[30px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
