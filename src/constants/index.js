@@ -201,13 +201,13 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "3js",
                 color: "pink-text-gradient",
             },
         ],
         image: hospital,
-        source_code_link: "https://github.com/ShivamChikara1611/hospital-management",
-        live_link: "https://hospital-management.shivamchikara.xyz/",
+        source_code_link: "https://github.com/ShivamChikara1611/hospital-3js",
+        live_link: "https://www.max-hospital.shivamchikara.xyz/",
     },
     {
         name: "Jobby App",
