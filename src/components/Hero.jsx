@@ -48,24 +48,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      <div className="absolute bottom-[100px] w-full flex justify-center items-center scroll-indicator">
-        <a href="#about">
-          <div className="w-[30px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-2 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
-        </a>
-      </div>
     </section>
   );
 };
