@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   useEffect(() => {
@@ -48,8 +47,6 @@ const Hero = () => {
             </p>
           </div>
         </div>
-
-        <ComputersCanvas/>
       </div>
 
       <div className="absolute bottom-[100px] w-full flex justify-center items-center scroll-indicator">
